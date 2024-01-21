@@ -1,0 +1,76 @@
+body {
+	background-color: #171717;
+	align-items: center;
+	justify-content: center;
+	width :100%;
+	background-image: url(https://img.freepik.com/premium-photo/preparation-cooking-wooden-background-top-view-free-space-text_187166-51517.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1701043200&semt=ais);
+    background-size: cover;
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       filter: brightness(2.0);
+}
+.form {
+	width:90%;
+	
+	display: flex;
+	justify-content: space-around;
+	margin: 10px auto;
+}
+.form h1 {
+	text-align: center;
+	margin-top: 0px;
+	color: black;
+}
+.i {
+	display: grid;
+	background-color: silver;
+	border-radius: 20px;
+	height: 500px;
+	box-shadow: 10px 10px 0px black;
+	border-radius: 20px;
+	filter: brightness(0.5);
+	text-align:left;
+	padding:10px;
+}
+#name {
+	width:300px;
+	align-items:center;
+	text-align:center;
+}
+#ui{
+	height:200px;
+}
+#n{
+	align-items:center;
+	text-align:center;
+}
+#submit{
+	width:100px;
+	text-align:center;
+	align-items:center;
+
+}
+#about{
+	color: white;
+ }
+ #about h2 {
+	border: 7px solid silver;
+	border-radius: 14px 50px;
+	background: black;
+	width: 600px;
+	height: 250px;
+	padding: 10px;
+	width: 800px;
+}
+@media screen and (max-width : 768px){
+  body{
+    width: 10%;
+  }
+  
+  
+  html{
+    font-size: 95%;
+
+  }
+}
